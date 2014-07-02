@@ -20,7 +20,6 @@ describe Tree do
   end
 
   it "can return an array of all names recursively" do
-    pending
     trystan = build_tree "Trystan" do
       add_child "Peggie"
       add_child "Sierra" do
@@ -36,7 +35,6 @@ describe Tree do
   end
 
   it "can return an array of all names recursively, with each new level indented by two spaces" do
-    pending
     trystan = build_tree "Trystan" do
       add_child "Peggie"
       add_child "Sierra" do
@@ -53,7 +51,6 @@ describe Tree do
   end
 
   it "can return an array of names in a nested hash" do
-    pending
     trystan = build_tree "Trystan" do
       add_child "Peggie"
       add_child "Sierra" do
